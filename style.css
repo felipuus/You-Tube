@@ -42,13 +42,13 @@ button{
     z-index: 3;
 
 }
- nav{
+ .menu-hamb{
      width: 100%;
      position: absolute;
-     top: 65px;
+     top: 5px;
  }
 
- nav a{
+ .menu-hamb a{
      text-decoration: none;
  }
 
@@ -74,6 +74,39 @@ button{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     align-items: center;
+    height:56px ;
+}
+
+input{
+    width: 377px;
+    height: 25px;
+
+
+}
+
+.icons-nav {
+
+    padding: 0px 0px 0px;
+}
+.icons-nav img{
+    padding: 0px 12px 0px;
+}
+
+section{
+    border-top: solid 4px rgb(226, 226, 226);
+}
+
+.video{
+    width:956px;
+    height:538px;
+}
+
+
+@media (max-width:1384px){
+
+
+
+    
 }
